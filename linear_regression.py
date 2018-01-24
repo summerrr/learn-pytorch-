@@ -53,4 +53,5 @@ for li in range(20000):
         plt.ylim(0,41)
         plt.show()
         plt.pause(0.5)
+		print(w.squeeze()[0],b.squeeze()[0])
 
